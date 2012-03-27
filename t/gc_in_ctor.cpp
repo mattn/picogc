@@ -1,5 +1,8 @@
-#! /usr/bin/C
-#option -cWall -p -cg
+#if 0
+#! /bin/bash
+/usr/bin/C -cWall -p -cg $0
+exit $?
+#endif
 
 #include "picogc.h"
 #include "t/test.h"
